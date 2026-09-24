@@ -1,0 +1,17 @@
+name: baseon_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+workspace:
+  - app
+  - packages/domain
+  - packages/data
+  - packages/shared
+  - packages/resources
+  - packages/initializer
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  melos: ^6.2.0

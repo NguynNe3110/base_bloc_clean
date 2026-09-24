@@ -1,0 +1,27 @@
+name: baseon
+packages:
+  - app
+  - packages/**
+
+scripts:
+  generate:
+    run: dart run build_runner build
+    exec:
+      concurrency: 1
+      orderDependents: true
+    packageFilters:
+      dependsOn: build_runner
+  analyze:
+    run: flutter analyze
+    exec:
+      concurrency: 1
+  test:
+    run: flutter test
+    exec:
+      concurrency: 1
+    packageFilters:
+      dirExists: test
+  format:
+    run: dart format .
+    exec:
+      concurrency: 1

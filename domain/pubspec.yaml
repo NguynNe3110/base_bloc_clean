@@ -1,0 +1,17 @@
+name: domain
+description: Business rules for Baseon.
+version: 1.0.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  freezed_annotation: ^3.0.0
+  shared: ^1.0.0
+
+dev_dependencies:
+  build_runner: ^2.5.4
+  freezed: ^3.0.6
+  test: ^1.25.8

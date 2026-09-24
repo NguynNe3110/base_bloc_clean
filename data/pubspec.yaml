@@ -1,0 +1,20 @@
+name: data
+description: Data access implementations for Baseon.
+version: 1.0.0
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  domain: ^1.0.0
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.11.0
+  shared: ^1.0.0
+
+dev_dependencies:
+  build_runner: ^2.5.4
+  freezed: ^3.0.6
+  json_serializable: ^6.9.5
+  test: ^1.25.8

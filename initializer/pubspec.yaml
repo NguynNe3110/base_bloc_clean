@@ -1,0 +1,7 @@
+name: initializer
+description: Ordered application startup for Baseon.
+version: 1.0.0
+publish_to: none
+resolution: workspace
+environment:
+  sdk: ^3.8.0
